@@ -1,0 +1,129 @@
+@charset "EUC-KR";
+body, header,.visual,section.select{
+	min-width:1280px; /*position:absolute 부모 기준선정*/
+}
+header{
+	text-align: center;
+	height: 81px;
+	position: relative;
+}
+header h1{/*메인 로고*/
+	position: absolute; 
+	left: 50px; 
+	top:0; /*background-color:red;*/
+	padding: 24px 0 0 ;
+}
+header h1 a{
+	
+	display: block; 
+	width:110px; /*사용자가 로고를 클릭할때 로고 크기를 a요소에 넣기*/
+	hieght: 81px; 
+	/*background: url('./08341ee.png') no-repeat 0px 0px;
+	color: transparent; /*로고 만들어서 넣기!*/*/
+}
+
+
+nav.nav{ /*메인 네비게이션*/
+	position: absolute; 
+	right: 100px; 
+	top:0;  
+}
+nav.nav li{
+	float: left;
+}
+nav.nav li a{
+	display: block; 
+	height: 81px; 
+	padding:0 10px; 
+	line-height:81px;
+	font-size: 20px;
+}
+
+
+.search{/*검색창*/
+	padding:14px 0 0; 
+	height: 67px; 
+}
+div.search input[type="text"]{
+	display: inline-block; 
+	width: 730px; 
+	height:46px;
+	border:none; /*boder-radius: 0px 0px;*/
+	outline-style: none; 
+	border-bottom:thick solid #ffc800;
+	position: absolute; left: 250px;
+	font-size:19px;
+}
+div.search span{
+	display: inline-block; 
+	width: 55px; 
+	height:35px;
+	border-bottom:thick solid #ffc800; 
+	padding-top: 11px;
+	position: absolute; 
+	left: 975px;
+}
+div.search input[type="submit"]{
+	display: inline-block; 
+	width: 30px; 
+	height:30px;
+	color: transparent;
+	outline-style: none; 
+	background: url('./08341ee.png') no-repeat -638px -156px;
+	position: absolute; 
+	left: 0px;
+	cursor: pointer;
+}
+
+.visual{
+	padding: 0 0px;
+	position: relative;
+}
+.visual button{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index:10;
+	width:30px;
+	height:42px;
+	color: transparent;
+	cursor: pointer;
+}
+button.slick-prev{
+	left:70px;
+	background: url('./08341ee.png') no-repeat -633px -253px;
+}
+button.slick-next{
+	right:70px;
+	background: url('./08341ee.png') no-repeat -633px -291px;
+}
+.visual .slick-list,
+.visual .slick-track{
+	height:450px;
+	border:none;/*없으면 레이아웃 틀어짐.*/}
+div.txt{
+	color:#fff; 
+	font-size: 40px; 
+	padding: 94px 0 0 50%;}
+div.txt p{
+	font-size:20px;}
+	
+section.select{			/* 장소 선택 컨테이너 블록*/
+	position:relative;
+	padding:62px 50px 30px 50px;
+	background-color:#f6f6f6;
+}
+div.select-list, section.select h2{
+	text-align: center;
+}
+section.select h2{
+	font-size: 34px;
+	color: black;
+	margin-bottom:30px;
+}
+div.select-list{
+	width:579px;
+	height:144px;
+	background-color: #fff;
+	margin: 0 auto;
+}
