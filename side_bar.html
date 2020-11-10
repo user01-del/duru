@@ -1,0 +1,97 @@
+<!-- id, class 임시 지정 / div 정리 중 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>side bar all menu</title>
+    <link rel="stylesheet" type="text/css" href="css/side_bar.css">
+</head>
+<body>
+<div id="wrap">
+    <input type="checkbox" id="menu_icon">
+    <header>
+        <div>
+            <label for="menu_icon" class="menu_btn"></label>
+        </div>
+    </header>
+
+    <article>
+        <div id="container">
+            본문입니다 테스트 중.
+        </div>
+    </article>
+
+    <aside>
+        <div id="all_menu">
+            <div class="profile">
+                <h3 class="blind">프로필</h3>
+                <a title="로그인 창으로 이동">로그인이 필요합니다.</a>
+            </div>
+            <div class="auth_menu">
+                <ul>
+                    <li>
+<!--                        case1 -->
+<!--                        <a href="#" class="auth_link">-->
+<!--                            <img src="img/ico_reservation_list.png" alt="예약 리스트" title="예약 리스트" style="vertical-align: middle; margin-bottom: 5px; width: 48px; height: 48px">-->
+<!--                            예약 리스트-->
+<!--                        </a>-->
+
+<!--                        case2 이걸로 갈 듯 -->
+                        <a href="#" >
+                            <i class="auth_link ico_reservation_list"></i>
+                            <span class="auth_txt">예약 리스트</span>
+                        </a>
+
+<!--                        case3 -->
+<!--                        <a href="#" class="auth_link ico_reservation_list">-->
+<!--                            <span class="auth_txt">예약 리스트<br></span>-->
+<!--                        </a>-->
+                    </li>
+                    <li>
+                        <a href="#" class="auth_link ico_manage">
+                            <span class="auth_txt">이용후기<br>Q&A관리</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="auth_link ico_zzim">
+                            <span class="auth_txt">찜한 공간<br></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <nav id="gnb">
+                <h3 class="blind">주메뉴 리스트</h3>
+                <ul>
+                    <li>
+                        <a href="#" class="depth-1">
+                            두루두루 홈
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="depth-1">
+                            대충 등록하기
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="depth-1">
+                            대충 고객센터
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="depth-1">
+                            대충 소개
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <label for="menu_icon" class="bg"></label>
+
+    <footer>
+    </footer>
+</div>
+</body>
+</html>
