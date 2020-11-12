@@ -1,17 +1,17 @@
 @charset "EUC-KR";
- .wrap, body, .login {
+ .wrap, body{
 	min-width:1280px;
 }
 
-body>a{
+.wrap > a{
 	text-decoration: none;
 	color: #006385;
 	font-size: 20px;
 	cursor:pointer;
 	position: absolute;
 	left: 50px;
-	top: 50px;
-	
+	top: 10px;
+	display: block;
 }
 .login{
 	position: absolute;
@@ -24,9 +24,9 @@ body>a{
 	text-align: center;
 	color: #006385;
 	font-size: 42px;
-	line-height: 1.1;
-	letter-spacing: -2.5px;
-	padding: 0 0 65px 0;
+	line-height: 1.4;
+	letter-spacing: -0.5px;
+	padding: 0 0 50px 0;
 }
 .login h1 span{
 	display: block;
@@ -47,23 +47,34 @@ body>a{
 	background:url('../img/login-img/ico_password.png') no-repeat 15px center;
  }
 
-.login_fm input[type="email"]{
+.login_fm input[type="text"]{
 	margin: 19px 0 0;
-
+	border: 1px solid #707070;
+	height: 40px;
+	font-size: 17px;
+	line-height: 35px;
+	box-shadow:0 0 2px 0 #707070;
 }
 .login_fm input[type="password"]{
 	margin: 19px 0 0;
-    
+	border: 1px solid #707070;
+	height: 40px;
+	font-size: 17px;
+    	line-height: 35px;
+	box-shadow:0 0 2px 0 #707070;
 }
 .login input:focus{
-	height:40px;
+	height:55px;
 }
-
+.login input::placeholder{
+	line-height:40px;
+	font-size: 15px;
+}
 .login li~li{
 	padding:20px 0 0;
 }
 
-.login button{
+input.sub_bt{
 	position:relative; 
 	margin:52px 0 0; 
 	width:100%; 
@@ -74,6 +85,6 @@ body>a{
 	color: #fff;
 	cursor: pointer;
 }
-.login button:hover{
+input.sub_bt:hover{
 	box-shadow: 0 0 2px 2px #707070;
 }
