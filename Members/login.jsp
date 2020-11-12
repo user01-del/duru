@@ -4,7 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>로그인</title>
+<title>두루두루 로그인</title>
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/default.css" /> 
 </head>
 <body>
 	<div class="wrap">
