@@ -7,17 +7,29 @@
 <title>로그인</title>
 </head>
 <body>
-	<div class="container">
-	<form method="post" action="loginAction.jsp">
-		<h3>로그인</h3>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
-		</div>
-		<div class="form-group">
-			<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
-		</div>
-		<input type="submit" class="btn btn-primary form-control" value="로그인">
-	</form>
+	<div class="wrap">
+
+<a href="#a">
+	<h1>로고 넣기</h1>
+</a>
+	<div class="login">
+		<h1>두루두루
+			<span>로그인</span>
+		</h1>
+		<form class="login_fm">
+		<ul>
+			<li>
+				<label for="txt1_1">ID</label>
+				<input type="text" id="txt1_1" name="userID" maxlength="20" placeholder="ID를 입력해 주세요.">
+			</li>
+			<li>
+				<label for="txt1_2">Password</label>
+				<input type="password" id="txt1_2" name="userPassword" maxlength="20" placeholder="PASS WORD를 입력해 주세요.">
+			</li>
+		</ul>
+			<input type="submit" class="sub_bt" value="로그인">
+		</form>
 	</div>
+</div>	
 </body>
 </html>
