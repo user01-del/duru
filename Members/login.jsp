@@ -14,11 +14,11 @@
 <a href="#a">
 	<h1>로고 넣기</h1>
 </a>
-	<div class="login">
+	<div class="login" >
 		<h1>두루두루
 			<span>로그인</span>
 		</h1>
-		<form class="login_fm">
+		<form class="login_fm" method="post" action="loginAction.jsp">
 		<ul>
 			<li>
 				<label for="txt1_1">ID</label>
