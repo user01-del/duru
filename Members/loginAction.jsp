@@ -21,7 +21,7 @@
 		if(result == 1){
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
-			script.println("location.href = 'main.jsp'"); //로그인 성공 시 메인으로 이동
+			script.println("location.href = 'main.html'"); //로그인 성공 시 메인으로 이동
 			script.println("</script>");
 		}else if(result == 0){
 			PrintWriter script = response.getWriter();

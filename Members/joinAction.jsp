@@ -33,7 +33,7 @@
 			}else{
 				PrintWriter script = response.getWriter();
 				script.println("<script>");
-				script.println("location.href = 'main.jsp'");
+				script.println("location.href = 'main.html'");
 				script.println("</script>");
 			}
 		}
