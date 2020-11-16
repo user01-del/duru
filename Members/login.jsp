@@ -30,6 +30,10 @@
 			</li>
 		</ul>
 			<input type="submit" class="sub_bt" value="로그인">
+			<div class="find">
+			<h3>비밀번호를 잊으셨나요?&nbsp;&nbsp;&nbsp;&nbsp;<a href="a#">비밀번호 찾기</a></h3>
+			<h3>아이디를 잊으셨나요?&nbsp;&nbsp;&nbsp;&nbsp;<a href="a#">아이디 찾기</a></h3>
+			</div>
 		</form>
 	</div>
 </div>	
