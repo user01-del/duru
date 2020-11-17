@@ -2,126 +2,190 @@
 <html lang="ko">
 <head>
 
-<meta charset="EUC-KR">
+<meta charset="UTF-8">
 <title>두루두루</title>
 
 <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="./css/main.css" />
 <link rel="stylesheet" type="text/css" href="./css/default.css" /> <!-- 슬라이드 jquery 라이브러리 -->
+<link rel="stylesheet" type="text/css" href="css/side_bar.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 </head>
 <body>
 <div id="wrap">
-<header>
-	<h1><a href="#a">두루두루</a></h1>
-	
-	<h2 class="hode">검색창</h2>
-	<div class="search">
-		<form>
-			<input type="text" placeholder="원하는 장소를 검색해보세요!">
+	<input type="checkbox" id="menu_btn">
+	<header>
+		<h1><a href="#a">두루두루</a></h1>
+
+		<h2 class="hide">검색창</h2>
+		<div class="search">
+			<form>
+				<input type="text" placeholder="원하는 장소를 검색해보세요!">
 				<span>
-			<input type="submit">
-		</span>
-		</form>
-	</div>
-	
-	<nav class="nav">
-		<ul>
-			<li><a href="*">공간 등록하기</a></li>
-		</ul>
-	</nav>
-	
-	<h2 class="hide">토글 메뉴</h2>
-</header>
-	<h2 class="hide">광고 영역</h2>
-<section class="visual">
-	
-		<div class="slide" 
-		style="background:url('./img/main-banner4.png') no-repeat 0px 0px;">
+					<input type="submit">
+				</span>
+			</form>
+		</div>
+
+		<nav class="nav">
+			<ul>
+				<li><a href="*">공간 등록하기</a></li>
+			</ul>
+		</nav>
+
+		<h2 class="hide">토글 메뉴</h2>
+		<div>
+			<label for="menu_btn" class="icon_menu"></label>
+		</div>
+
+	</header>
+
+	<aside>
+		<div id="sidebar">
+			<div class="profile">
+				<h3 class="hide">프로필</h3>
+				<a title="로그인 창으로 이동">로그인이 필요합니다.</a> <!-- 로그인 여부에 따라 다르게 나오도록 하고 싶음 -->
+			</div>
+			<div class="auth_menu">
+				<h3 class="hide">마이 페이지</h3>
+				<ul>
+					<li>
+						<a href="#" class="am">
+							<i class="am_icon icon_book"></i>
+							<span class="am_text">예약 목록</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="am">
+							<i class="am_icon icon_manage"></i>
+							<span class="am_text">이용후기<br>Q&A관리</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="am">
+							<i class="am_icon icon_interest"></i>
+							<span class="am_text">관심 목록</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu">
+				<h3 class="hide">그냥 메뉴</h3>
+				<ul>
+					<li>
+						<a href="#" class="depth-1">
+							두루두루 홈
+						</a>
+					</li>
+					<li>
+						<a href="#" class="depth-1">
+							대충 공지사항
+						</a>
+					</li>
+					<li>
+						<a href="#" class="depth-1">    <!-- 하위 메뉴 추가 예정 (도움말, 문의게시판) -->
+							대충 고객센터
+						</a>
+					</li>
+					<li>
+						<a href="#" class="depth-1">
+							대충 서비스 소개
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</aside>
+	<label for="menu_btn" class="bg"></label>
+
+	<section class="visual">
+		<h2 class="hide">광고 영역</h2>
+		<div class="slide" style="background:url('./img/main-banner4.png') no-repeat 0 0;">
 			<div class="txt">
 				<p>독서 모임 공간 추천</p>
 				깊어지는 가을<br>
-		                독서로 마음을 풍성하게 
+						독서로 마음을 풍성하게
 			</div>
 		</div>
-		
-		<div class="slide"  style="background:url('./img/CAFE1.png') no-repeat 0px 0px;">
+
+		<div class="slide" style="background:url('./img/CAFE1.png') no-repeat 0 0;">
 			<div class="txt">
 				<p>집중 잘 되는 스터디 룸</p>
 				하루종일 <br>
-		                공부 할 공간이 필요하다면
+						공부 할 공간이 필요하다면
 			</div>
 		</div>
-		
-		<div class="slide"  style="background:url('./img/main-banner3.png') no-repeat 0px 0px;">
+
+		<div class="slide" style="background:url('./img/main-banner3.png') no-repeat 0 0;">
 			<div class="txt">
 				<p>워크숍 공간 대여</p>
 				팀 워크숍을 위한<br>
-		                프라이빗한 공간 
+						프라이빗한 공간
 			</div>
 		</div>
-		
-		<div class="slide"  style="background:url('./img/main-banner2.png') no-repeat 0px 0px;">
+
+		<div class="slide" style="background:url('./img/main-banner2.png') no-repeat 0 0;">
 			<div class="txt">
 				<p>아름다운 카페</p>
 				올 가을 소중한 사람들과<br>
-		                추억을 쌓고 싶다면
+						추억을 쌓고 싶다면
 			</div>
 		</div>
-		
-</section>
+
+	</section>
 	<script type="text/javascript">
 		$('.visual').slick();
 	</script>
 	
-<section class="select">
-<h2>어떤 공간을 찾고 있나요?</h2>
-<div class="select-list">
-	<h2 class="hide">공간 유형</h2>
-	<ul>
-		<li>
-			<a href="#a">엠티 장소</a>
-		</li>
-		<li>
-			<a href="#a">파티룸</a>
-		</li>
-		<li>
-			<a href="#a">카페</a>
-		</li>
-		<li>
-			<a href="#a">스터디룸</a>
-		</li>
-		<li>
-			<a href="#a">연습실</a>
-		</li>
-		<li>
-			<a href="#a">회의실</a>
-		</li>
-		<li>
-			<a href="#a">한옥</a>
-		</li>
-		<li>
-			<a href="#a">작업실</a>
-		</li>
-		<li>
-			<a href="#a">촬영스튜디오</a>
-		</li>
-		
-	
-	</ul>
-</div>
-</section>
+	<section class="select">
+	<h2>어떤 공간을 찾고 있나요?</h2>
+	<div class="select-list">
+		<h2 class="hide">공간 유형</h2>
+		<ul>
+			<li>
+				<a href="#a">엠티 장소</a>
+			</li>
+			<li>
+				<a href="#a">파티룸</a>
+			</li>
+			<li>
+				<a href="#a">카페</a>
+			</li>
+			<li>
+				<a href="#a">스터디룸</a>
+			</li>
+			<li>
+				<a href="#a">연습실</a>
+			</li>
+			<li>
+				<a href="#a">회의실</a>
+			</li>
+			<li>
+				<a href="#a">한옥</a>
+			</li>
+			<li>
+				<a href="#a">작업실</a>
+			</li>
+			<li>
+				<a href="#a">촬영스튜디오</a>
+			</li>
 
-<section>
-	<div>
-		<h2>오늘의 추천 공간</h2>
-		
+
+		</ul>
 	</div>
-</section>
-<footer>
-</footer>
+	</section>
+
+	<section>
+		<div>
+			<h2>오늘의 추천 공간</h2>
+
+		</div>
+	</section>
+
+	<footer>
+	</footer>
 
 </div>
 </body>
