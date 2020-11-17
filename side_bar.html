@@ -9,59 +9,50 @@
 </head>
 <body>
 <div id="wrap">
-    <input type="checkbox" id="menu_icon">
+    <input type="checkbox" id="menu_btn">
     <header>
         <div>
-            <label for="menu_icon" class="menu_btn"></label>
+            <label for="menu_btn" class="icon_menu"></label>
         </div>
     </header>
 
-    <article>
-        <div id="container">
-            본문입니다 테스트 중.
-        </div>
-    </article>
+<!--    <article>-->
+<!--        <div id="container">-->
+<!--            본문입니다 테스트 중.-->
+<!--        </div>-->
+<!--    </article>-->
 
     <aside>
-        <div id="all_menu">
+        <div id="sidebar">
             <div class="profile">
-                <h3 class="blind">프로필</h3>
-                <a title="로그인 창으로 이동">로그인이 필요합니다.</a>
+                <h3 class="hide">프로필</h3>
+                <a title="로그인 창으로 이동">로그인이 필요합니다.</a> <!-- 로그인 여부에 따라 다르게 나오도록 하고 싶음 -->
             </div>
             <div class="auth_menu">
+                <h3 class="hide">마이 페이지</h3>
                 <ul>
                     <li>
-<!--                        case1 -->
-<!--                        <a href="#" class="auth_link">-->
-<!--                            <img src="img/ico_reservation_list.png" alt="예약 리스트" title="예약 리스트" style="vertical-align: middle; margin-bottom: 5px; width: 48px; height: 48px">-->
-<!--                            예약 리스트-->
-<!--                        </a>-->
-
-<!--                        case2 이걸로 갈 듯 -->
-                        <a href="#" >
-                            <i class="auth_link ico_reservation_list"></i>
-                            <span class="auth_txt">예약 리스트</span>
-                        </a>
-
-<!--                        case3 -->
-<!--                        <a href="#" class="auth_link ico_reservation_list">-->
-<!--                            <span class="auth_txt">예약 리스트<br></span>-->
-<!--                        </a>-->
-                    </li>
-                    <li>
-                        <a href="#" class="auth_link ico_manage">
-                            <span class="auth_txt">이용후기<br>Q&A관리</span>
+                        <a href="#" class="am">
+                            <i class="am_icon icon_book"></i>
+                            <span class="am_text">예약 목록</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="auth_link ico_zzim">
-                            <span class="auth_txt">찜한 공간<br></span>
+                        <a href="#" class="am">
+                            <i class="am_icon icon_manage"></i>
+                            <span class="am_text">이용후기<br>Q&A관리</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="am">
+                            <i class="am_icon icon_interest"></i>
+                            <span class="am_text">관심 목록</span>
                         </a>
                     </li>
                 </ul>
             </div>
-            <nav id="gnb">
-                <h3 class="blind">주메뉴 리스트</h3>
+            <div class="menu">
+                <h3 class="hide">그냥 메뉴</h3>
                 <ul>
                     <li>
                         <a href="#" class="depth-1">
@@ -70,25 +61,25 @@
                     </li>
                     <li>
                         <a href="#" class="depth-1">
-                            대충 등록하기
+                            대충 공지사항
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="depth-1">
+                        <a href="#" class="depth-1">    <!-- 하위 메뉴 추가 예정 (도움말, 문의게시판) -->
                             대충 고객센터
                         </a>
                     </li>
                     <li>
                         <a href="#" class="depth-1">
-                            대충 소개
+                            대충 서비스 소개
                         </a>
                     </li>
                 </ul>
-            </nav>
+            </div>
         </div>
     </aside>
 
-    <label for="menu_icon" class="bg"></label>
+    <label for="menu_btn" class="bg"></label>
 
     <footer>
     </footer>
