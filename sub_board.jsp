@@ -4,40 +4,40 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>µÎ·çµÎ·ç</title>
+<title>ë‘ë£¨ë‘ë£¨</title>
 <link rel="stylesheet" type="text/css" href="./css/default.css" /> 
 <link rel="stylesheet" type="text/css" href="./css/sub_board.css" /> 
 </head>
 <body>
 <header >
 	<div class="header">
-	<a href="a#">µÎ·çµÎ·ç</a>
+	<a href="a#">ë‘ë£¨ë‘ë£¨</a>
 	<form method="post" class="first_form">
-		<input type="text" name="search" placeholder="¿øÇÏ´Â Àå¼Ò¸¦ ÀÔ·ÂÇØº¸¼¼¿ä!">
+		<input type="text" name="search" placeholder="ì›í•˜ëŠ” ìž¥ì†Œë¥¼ ìž…ë ¥í•´ë³´ì„¸ìš”!">
 		<input type="submit" name="submit">
 	</form>
 	<div id="wrapper">
 		<ul>
 			<li>
-				<a href="a#">¼­ºñ½º ¼Ò°³</a>
+				<a href="a#">ì„œë¹„ìŠ¤ ì†Œê°œ</a>
 			</li>
 			<li>
-				<a href="a#">°ø°£ µî·Ï</a>
+				<a href="a#">ê³µê°„ ë“±ë¡</a>
 			</li>
 			<li>
-				<a href="a#">°ø°£ ´ë¿©</a>
+				<a href="a#">ê³µê°„ ëŒ€ì—¬</a>
 				<ul>
-					<li>¿¹¾àÇÏ±â</li>
-			 		<li>¸®ºä</li>
+					<li>ì˜ˆì•½í•˜ê¸°</li>
+			 		<li>ë¦¬ë·°</li>
 				</ul>
 					
 			</li>
 			<li>
-				<a href="a#">°í°´ ¼¾ÅÍ</a>
+				<a href="a#">ê³ ê° ì„¼í„°</a>
 				 <ul>
-					<li>°øÁö»çÇ×</li>
-					<li>µµ¿ò¸»</li>
-					<li>1:1¹®ÀÇ</li>
+					<li>ê³µì§€ì‚¬í•­</li>
+					<li>ë„ì›€ë§</li>
+					<li>1:1ë¬¸ì˜</li>
 				</ul>
 			</li>
 		</ul>
@@ -47,25 +47,25 @@
 
 <!-- <header >
 	<div class="header">
-	<a href="a#">µÎ·çµÎ·ç</a>
+	<a href="a#">ë‘ë£¨ë‘ë£¨</a>
 	<form method="post" class="first_form">
-		<input type="text" name="search" placeholder="¿øÇÏ´Â Àå¼Ò¸¦ ÀÔ·ÂÇØº¸¼¼¿ä!">
+		<input type="text" name="search" placeholder="ì›í•˜ëŠ” ìž¥ì†Œë¥¼ ìž…ë ¥í•´ë³´ì„¸ìš”!">
 		<input type="submit" name="submit">
 	</form>
-	<a href="a#">¼­ºñ½º ¼Ò°³</a>
-	<a href="a#">°ø°£ µî·Ï</a>
-	<a href="a#">°ø°£ ´ë¿©</a>
-	<a href="a#">°í°´ ¼¾ÅÍ</a>
+	<a href="a#">ì„œë¹„ìŠ¤ ì†Œê°œ</a>
+	<a href="a#">ê³µê°„ ë“±ë¡</a>
+	<a href="a#">ê³µê°„ ëŒ€ì—¬</a>
+	<a href="a#">ê³ ê° ì„¼í„°</a>
 
 	</div>
 </header>
  -->
 <section >
 <div class="center">
-<!-- input radio°¡ ¼±ÅÃµÇ¸é Àå¼Ò ÀÌ¹ÌÁö°¡ ³Ñ¾î°¡´Â ¹æ½Ä. -->
+<!-- input radioê°€ ì„ íƒë˜ë©´ ìž¥ì†Œ ì´ë¯¸ì§€ê°€ ë„˜ì–´ê°€ëŠ” ë°©ì‹. -->
 	<div class="section">
-		<h2 name="name">Àå¼Ò ÀÌ¸§</h2>
-		<input type="radio" name="slide" id="slide1" checked><!-- ÆäÀÌÁö °³¼ö -->
+		<h2 name="name">ìž¥ì†Œ ì´ë¦„</h2>
+		<input type="radio" name="slide" id="slide1" checked><!-- íŽ˜ì´ì§€ ê°œìˆ˜ -->
 		<input type="radio" name="slide" id="slide2">
 		<input type="radio" name="slide" id="slide3">
 		<input type="radio" name="slide" id="slide4">
@@ -74,30 +74,30 @@
 		<div class="slidewrap">
 			<ul class="slidelist"> 
 				<li>
-					<a> <!-- 1½½¶óÀÌµå -->
+					<a> <!-- 1ìŠ¬ë¼ì´ë“œ -->
 						<label for="slide4" class="left"></label>
-						<img src="./img/cafe.jpg"><!-- Àå¼Ò ÀÌ¹ÌÁö ¿©±â¿¡ ³Ö±â -->
+						<img src="./img/cafe.jpg"><!-- ìž¥ì†Œ ì´ë¯¸ì§€ ì—¬ê¸°ì— ë„£ê¸° -->
 						<label for="slide2" class="right"></label>
 					</a>
 				</li>
-				<li><!-- 2½½¶óÀÌµå -->
+				<li><!-- 2ìŠ¬ë¼ì´ë“œ -->
 					<a>
 						<label for="slide1" class="left"></label>
-						<img src="./img/cafe.jpg"><!-- Àå¼Ò ÀÌ¹ÌÁö ¿©±â¿¡ ³Ö±â -->
+						<img src="./img/cafe.jpg"><!-- ìž¥ì†Œ ì´ë¯¸ì§€ ì—¬ê¸°ì— ë„£ê¸° -->
 						<label for="slide3" class="right"></label>
 					</a>
 				</li>
-				<li>  <!-- 3½½¶óÀÌµå -->
+				<li>  <!-- 3ìŠ¬ë¼ì´ë“œ -->
 					<a>
 						<label for="slide2" class="left"></label>
-						<img src="./img/cafe.jpg"><!-- Àå¼Ò ÀÌ¹ÌÁö ¿©±â¿¡ ³Ö±â -->
+						<img src="./img/cafe.jpg"><!-- ìž¥ì†Œ ì´ë¯¸ì§€ ì—¬ê¸°ì— ë„£ê¸° -->
 						<label for="slide4" class="right"></label>
 					</a>
 				</li>
-				<li><!-- 4½½¶óÀÌµå -->
+				<li><!-- 4ìŠ¬ë¼ì´ë“œ -->
 					<a>
 						<label for="slide3" class="left"></label>
-						<img src="./img/cafe.jpg"><!-- Àå¼Ò ÀÌ¹ÌÁö ¿©±â¿¡ ³Ö±â -->
+						<img src="./img/cafe.jpg"><!-- ìž¥ì†Œ ì´ë¯¸ì§€ ì—¬ê¸°ì— ë„£ê¸° -->
 						<label for="slide1" class="right"></label>
 					</a>
 				</li>
@@ -106,15 +106,15 @@
 	</div>
 	
 	
-	<div class="option_wrap"> <!-- ÀüÃ¼ °¨½Î´Â ·¹ÀÌ¾Æ¿ô -->
+	<div class="option_wrap"> <!-- ì „ì²´ ê°ì‹¸ëŠ” ë ˆì´ì•„ì›ƒ -->
 		<form>
-			<h2 >¼¼ºÎ °ø°£ ¼±ÅÃ</h2>
+			<h2 >ì„¸ë¶€ ê³µê°„ ì„ íƒ</h2>
 			
-				<div class="option"><!-- ¼±ÅÃ¿µ¿ª ·¹ÀÌ¾Æ¿ô -->
+				<div class="option"><!-- ì„ íƒì˜ì—­ ë ˆì´ì•„ì›ƒ -->
 					<div class="explanation">
-						<p>¿¹¾àÀ» ÇÏ½Ã·Á¸é È£½ºÆ®ÀÇ ½ÂÀÎÀÌ ÇÊ¿äÇÕ´Ï´Ù. ½ÂÀÎ ÈÄ ¿¹¾àÀÌ °¡´ÉÇÕ´Ï´Ù!</p>
+						<p>ì˜ˆì•½ì„ í•˜ì‹œë ¤ë©´ í˜¸ìŠ¤íŠ¸ì˜ ìŠ¹ì¸ì´ í•„ìš”í•©ë‹ˆë‹¤. ìŠ¹ì¸ í›„ ì˜ˆì•½ì´ ê°€ëŠ¥í•©ë‹ˆë‹¤!</p>
 						<div class="explanation-2">
-							<strong>Æò±Õ ´ë±â ½Ã°£</strong> <strong>10ºÐ</strong>
+							<strong>í‰ê·  ëŒ€ê¸° ì‹œê°„</strong> <strong>10ë¶„</strong>
 						</div>
 					</div>
 					
@@ -123,45 +123,45 @@
 							<div>
 								<label for="option1">
 								<input type="radio" name="option" id="option1">
-								µÎÁ¤µ¿ ¤±¤±Ä«Æä 
+								ë‘ì •ë™ ã…ã…ì¹´íŽ˜ 
 								</label>
 							</div>
 							<div class="a">
 								<h3>15000</h3>
-								<h3>/ ½Ã°£</h3>
+								<h3>/ ì‹œê°„</h3>
 							</div>
 						</li>
 						<li>
 							<div>
 								<label for="option2">
 								<input type="radio" name="option" id="option2">
-								µÎÁ¤µ¿ ¤±¤±Ä«Æä 
+								ë‘ì •ë™ ã…ã…ì¹´íŽ˜ 
 								</label>
 							</div>
 							<div class="a">
 								<h3>30000</h3>
-								<h3>/ 2½Ã°£</h3>
+								<h3>/ 2ì‹œê°„</h3>
 							</div>
 						</li>
 						<li>
 							<div>
 								<label for="option3">
 								<input type="radio" name="option" id="option3">
-								µÎÁ¤µ¿ ¤±¤±Ä«Æä 
+								ë‘ì •ë™ ã…ã…ì¹´íŽ˜ 
 								</label>
 							</div>
 							<div class="a">
 								<h3>40000</h3>
-								<h3>/ 3½Ã°£</h3>
+								<h3>/ 3ì‹œê°„</h3>
 							</div>
 						</li>
 						<li>
-							<label for="date"> ³¯Â¥
-							<input type="date" value="2020-11-24" id="date"> <!-- °¡´É ³¯Â¥ ¿©±â¿¡¼­ ¼öÁ¤! -->
+							<label for="date"> ë‚ ì§œ
+							<input type="date" value="2020-11-24" id="date"> <!-- ê°€ëŠ¥ ë‚ ì§œ ì—¬ê¸°ì—ì„œ ìˆ˜ì •! -->
 							</label>
 						</li>
 						<li>
-							<input type="submit" value="¹Ù·Î ¿¹¾àÇÏ±â" id="submit">
+							<input type="submit" value="ë°”ë¡œ ì˜ˆì•½í•˜ê¸°" id="submit">
 						</li>
 					</ul>
 				</div>
@@ -173,121 +173,126 @@
  <section>
  		<div class="center">
 		<div class="text_box">
-			<h3 class="h_copy">"ÃëÇâ Àú°Ý, ÀÎ½ºÅ¸ °¨¼ºÀÇ ¿¹»Û Ä«Æä"</h3>
+			<h3 class="h_copy">"ì·¨í–¥ ì €ê²©, ì¸ìŠ¤íƒ€ ê°ì„±ì˜ ì˜ˆìœ ì¹´íŽ˜"</h3>
 		</div>
 	
 		<nav>
 			<div class="nav">
-					<a href="on_1"><span>°ø°£ ¼Ò°³</span></a>
-					<a href="on_2" ><span>½Ã¼³ ¾È³»</span></a>
-					<a href="on_3"><span>À¯ÀÇ »çÇ×</span></a>
-					<a href="on_4"><span>È¯ºÒ Á¤Ã¥</span></a>
-					<a href="on_5"><span>À§Ä¡</span></a>
+					<a href="#on_1"><span>ê³µê°„ ì†Œê°œ</span></a>
+					<a href="#on_2" ><span>ì‹œì„¤ ì•ˆë‚´</span></a>
+					<a href="#on_3"><span>ìœ ì˜ ì‚¬í•­</span></a>
+					<a href="#on_4"><span>í™˜ë¶ˆ ì •ì±…</span></a>
+					<a href="#on_5"><span>ìœ„ì¹˜</span></a>
 			</div>
 		</nav>
 		<div class="text_box2">
-				<h4>°ø°£¼Ò°³</h4>
+			<a id="on_1"></a>
+				<h4>ê³µê°„ì†Œê°œ</h4>
 				<p>
-					¿ì¸®¸¸ÀÇ °ø°£ÀÌ ÇÊ¿äÇÒ ¶§,
+					ìš°ë¦¬ë§Œì˜ ê³µê°„ì´ í•„ìš”í•  ë•Œ,
 					<br>
-					ÁÁÀº ½Ã°£À» º¸³¾ ¼ö ÀÖ´Â °ø°£ÀÔ´Ï´Ù.
-					<br>
-					<br>
-					°¢ Å×ÀÌºí°ú ÀÇÀÚ´Â ´Ù¸¥ ºÐÀ§±â¸¦ ´À³¥ ¼ö ÀÖ°í 
-					<br>
-					°÷°÷¿¡ ½Ä¹°µé, ±×¸®°í ±ò²ûÇÑ È­ÀÌÆ® »ö°¨À¸·Î ÃëÇâÀú°Ý!
+					ì¢‹ì€ ì‹œê°„ì„ ë³´ë‚¼ ìˆ˜ ìžˆëŠ” ê³µê°„ìž…ë‹ˆë‹¤.
 					<br>
 					<br>
-					¼îÇÎ¸ôÀÌ³ª À¯Æ©ºê, ¼¿ÇÁ ¿þµù ÃÔ¿µ µî ÃÔ¿µÀå¼Ò·Îµµ ³Ê¹« Á¦°ÝÀÎ °ø°£ÀÌ¿¡¿ä.
+					ê° í…Œì´ë¸”ê³¼ ì˜ìžëŠ” ë‹¤ë¥¸ ë¶„ìœ„ê¸°ë¥¼ ëŠë‚„ ìˆ˜ ìžˆê³  
 					<br>
-					Å×ÀÌºí 9°³¿¡ ÀÇÀÚ 29°³, ´ÜÃ¼ ¸ðÀÓµµ °¡´ÉÇÕ´Ï´Ù.
+					ê³³ê³³ì— ì‹ë¬¼ë“¤, ê·¸ë¦¬ê³  ê¹”ë”í•œ í™”ì´íŠ¸ ìƒ‰ê°ìœ¼ë¡œ ì·¨í–¥ì €ê²©!
 					<br>
 					<br>
-					°¢Á¾ µå¶ó¸¶, ¿µÈ­, ±¤°í µî ÃÔ¿µÀ¸·Î ÀÎ±â°¡ ÁÁ¾Æ¿ä!
+					ì‡¼í•‘ëª°ì´ë‚˜ ìœ íŠœë¸Œ, ì…€í”„ ì›¨ë”© ì´¬ì˜ ë“± ì´¬ì˜ìž¥ì†Œë¡œë„ ë„ˆë¬´ ì œê²©ì¸ ê³µê°„ì´ì—ìš”.
+					<br>
+					í…Œì´ë¸” 9ê°œì— ì˜ìž 29ê°œ, ë‹¨ì²´ ëª¨ìž„ë„ ê°€ëŠ¥í•©ë‹ˆë‹¤.
+					<br>
+					<br>
+					ê°ì¢… ë“œë¼ë§ˆ, ì˜í™”, ê´‘ê³  ë“± ì´¬ì˜ìœ¼ë¡œ ì¸ê¸°ê°€ ì¢‹ì•„ìš”!
 				</p>
 				<ul>
 					<li>
-						<span>¿µ¾÷½Ã°£</span>
-						<span>0~24½Ã</span>
+						<span>ì˜ì—…ì‹œê°„</span>
+						<span>0~24ì‹œ</span>
 					</li>
 					<li>
-						<span>ÈÞ¹«ÀÏ</span>
-						<span>¾øÀ½</span>
+						<span>íœ´ë¬´ì¼</span>
+						<span>ì—†ìŒ</span>
 					</li>
 				</ul>
 		</div>
 		<div class="text_box3">
-			<h4>½Ã¼³ ¾È³»</h4>
+			<a id="on_2"></a>
+			<h4>ì‹œì„¤ ì•ˆë‚´</h4>
 			<ol type="1">
-				<li>1. ºö ÇÁ·ÎÁ§Æ®</li>
-				<li>2. À½Çâ ½Ã¼³</li>
-				<li>3. Á¶¸í ½Ã¼³[»ö»óÁ¶Á¤°¡´É]</li>
-				<li>4. ³ÃÀå°í ¹× Àü±â ÄîÅ¾</li>
-				<li>5. Å×ÀÌºí ¹× ÀÇÀÚ [ÃÖ´ë 10ÀÎ]</li>
+				<li>1. ë¹” í”„ë¡œì íŠ¸</li>
+				<li>2. ìŒí–¥ ì‹œì„¤</li>
+				<li>3. ì¡°ëª… ì‹œì„¤[ìƒ‰ìƒì¡°ì •ê°€ëŠ¥]</li>
+				<li>4. ëƒ‰ìž¥ê³  ë° ì „ê¸° ì¿¡íƒ‘</li>
+				<li>5. í…Œì´ë¸” ë° ì˜ìž [ìµœëŒ€ 10ì¸]</li>
 			</ol> 
 		</div>
 		<div class="text_box4">
-			<h4>¿¹¾à½Ã ÁÖÀÇ»çÇ×</h4>
+			<a id="on_3"></a>
+			<h4>ì˜ˆì•½ì‹œ ì£¼ì˜ì‚¬í•­</h4>
 			<ol type="1">
-				<li>1. ±â¹° ÆÄ¼Õ ½Ã ¼ÕÇØ¹è»óÀÌ Ã»±¸µÉ ¼ö ÀÖ½À´Ï´Ù.</li>
-				<li>2. ¹Ì¼º³âÀÚ´Â ºÎ¸ð µ¿¹Ý ÇÏ¿¡ ÀÔ½Ç°¡´ÉÇÕ´Ï´Ù.</li>
-				<li>3. 3,4¸í ÃÊ°ú ½Ã 1ÀÎ´ç 5000¿øÀÌ Ãß°¡µË´Ï´Ù. (ÃÊ°ú ¿ä±ÝÀº ¿äÃ»»çÇ× ÀÎ¿ø Âü°íÇÏ¿© °áÁ¦ ±Ý¾×¿¡ ¹Ý¿µ)</li>
-				<li>4. ³ÃÀå°í ¹× Àü±â ÄîÅ¾</li>
-				<li>5. Å×ÀÌºí ¹× ÀÇÀÚ [ÃÖ´ë 10ÀÎ]</li>
+				<li>1. ê¸°ë¬¼ íŒŒì† ì‹œ ì†í•´ë°°ìƒì´ ì²­êµ¬ë  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.</li>
+				<li>2. ë¯¸ì„±ë…„ìžëŠ” ë¶€ëª¨ ë™ë°˜ í•˜ì— ìž…ì‹¤ê°€ëŠ¥í•©ë‹ˆë‹¤.</li>
+				<li>3. 3,4ëª… ì´ˆê³¼ ì‹œ 1ì¸ë‹¹ 5000ì›ì´ ì¶”ê°€ë©ë‹ˆë‹¤. (ì´ˆê³¼ ìš”ê¸ˆì€ ìš”ì²­ì‚¬í•­ ì¸ì› ì°¸ê³ í•˜ì—¬ ê²°ì œ ê¸ˆì•¡ì— ë°˜ì˜)</li>
+				<li>4. ëƒ‰ìž¥ê³  ë° ì „ê¸° ì¿¡íƒ‘</li>
+				<li>5. í…Œì´ë¸” ë° ì˜ìž [ìµœëŒ€ 10ì¸]</li>
 			</ol> 
 		</div>
 		<div class="text_box5">
-			<h4>È¯ºÒ±ÔÁ¤ ¾È³»</h4>
-			<h5>ÀÌ¿ë´çÀÏ(Ã¹ ³¯) ÀÌÈÄ¿¡ È¯ºÒ °ü·Ã »çÇ×Àº È£½ºÆ®¿¡°Ô Á÷Á¢ ¹®ÀÇÇÏ¼Å¾ß ÇÕ´Ï´Ù.</h5>
-			<h5>°áÁ¦ ÈÄ 2½Ã°£ ÀÌ³»¿¡´Â 100% È¯ºÒÀÌ °¡´ÉÇÕ´Ï´Ù. (´Ü, ÀÌ¿ë½Ã°£ Àü±îÁö¸¸ °¡´É)</h5>
+			<a id="on_4"></a>
+			<h4>í™˜ë¶ˆê·œì • ì•ˆë‚´</h4>
+			<h5>ì´ìš©ë‹¹ì¼(ì²« ë‚ ) ì´í›„ì— í™˜ë¶ˆ ê´€ë ¨ ì‚¬í•­ì€ í˜¸ìŠ¤íŠ¸ì—ê²Œ ì§ì ‘ ë¬¸ì˜í•˜ì…”ì•¼ í•©ë‹ˆë‹¤.</h5>
+			<h5>ê²°ì œ í›„ 2ì‹œê°„ ì´ë‚´ì—ëŠ” 100% í™˜ë¶ˆì´ ê°€ëŠ¥í•©ë‹ˆë‹¤. (ë‹¨, ì´ìš©ì‹œê°„ ì „ê¹Œì§€ë§Œ ê°€ëŠ¥)</h5>
 			<ul>
 					<li>
-						<span>ÀÌ¿ë 8ÀÏ Àü</span>ÃÑ ±Ý¾×ÀÇ 100% È¯ºÒ  <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 8ì¼ ì „</span>ì´ ê¸ˆì•¡ì˜ 100% í™˜ë¶ˆ  <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 7ÀÏ Àü</span>
-						<span>ÃÑ ±Ý¾×ÀÇ 90% È¯ºÒ</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 7ì¼ ì „</span>
+						<span>ì´ ê¸ˆì•¡ì˜ 90% í™˜ë¶ˆ</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 6ÀÏ Àü</span>
-						<span>ÃÑ ±Ý¾×ÀÇ 80% È¯ºÒ</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 6ì¼ ì „</span>
+						<span>ì´ ê¸ˆì•¡ì˜ 80% í™˜ë¶ˆ</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 5ÀÏ Àü</span>
-						<span>ÃÑ ±Ý¾×ÀÇ 70% È¯ºÒ</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 5ì¼ ì „</span>
+						<span>ì´ ê¸ˆì•¡ì˜ 70% í™˜ë¶ˆ</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 4ÀÏ Àü</span>
-						<span>ÃÑ ±Ý¾×ÀÇ 60% È¯ºÒ</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 4ì¼ ì „</span>
+						<span>ì´ ê¸ˆì•¡ì˜ 60% í™˜ë¶ˆ</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 3ÀÏ Àü</span>
-						<span>ÃÑ ±Ý¾×ÀÇ 50% È¯ºÒ</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 3ì¼ ì „</span>
+						<span>ì´ ê¸ˆì•¡ì˜ 50% í™˜ë¶ˆ</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 2ÀÏ Àü</span>
-						<span>È¯ºÒ ºÒ°¡</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 2ì¼ ì „</span>
+						<span>í™˜ë¶ˆ ë¶ˆê°€</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë 1ÀÏ Àü</span>
-						<span>È¯ºÒ ºÒ°¡</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© 1ì¼ ì „</span>
+						<span>í™˜ë¶ˆ ë¶ˆê°€</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 					<li>
-						<span>ÀÌ¿ë ´çÀÏ  </span>
-						<span>È¯ºÒ ºÒ°¡</span> <!-- ¿©±â ³»¿ë ¼öÁ¤ÇÏ´Â °Í. -->
+						<span>ì´ìš© ë‹¹ì¼  </span>
+						<span>í™˜ë¶ˆ ë¶ˆê°€</span> <!-- ì—¬ê¸° ë‚´ìš© ìˆ˜ì •í•˜ëŠ” ê²ƒ. -->
 					</li>
 			</ul>
 		</div>
 		<div class="text_box6">
-			<h4>À§Ä¡</h4>
+			<a id="on_5"></a>
+			<h4>ìœ„ì¹˜</h4>
 			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12789.741225257658!2d127.0743694!3d36.7361211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1ef7ed6ab7d899b8!2z7Zi47ISc64yA7ZWZ6rWQIOyVhOyCsOy6oO2NvOyKpA!5e0!3m2!1sko!2skr!4v1607079905965!5m2!1sko!2skr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
 	</div>
 </section>
 <footer>
 	<div class="footer">
-		<h5>µÎ·çµÎ·ç</h5>
-		<p>°ø°£¿¡ ´ëÇÑ ¹®ÀÇ»çÇ×Àº ÇØ´ç °ø°£ È£½ºÆ®¿¡°Ô Á÷Á¢ ¹®ÀÇÇØÁÖ¼¼¿ä.</p>
+		<h5>ë‘ë£¨ë‘ë£¨</h5>
+		<p>ê³µê°„ì— ëŒ€í•œ ë¬¸ì˜ì‚¬í•­ì€ í•´ë‹¹ ê³µê°„ í˜¸ìŠ¤íŠ¸ì—ê²Œ ì§ì ‘ ë¬¸ì˜í•´ì£¼ì„¸ìš”.</p>
 		<p>QnA 041-000-0000</p>
 	</div>
 </footer>
